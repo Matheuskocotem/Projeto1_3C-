@@ -9,6 +9,7 @@ body {
 	font-family: 'Ubuntu';
 	max-width: 1200px;
 	margin: 0 auto;
+	background: linear-gradient(to right, #003C43, #135D66, #77B0AA, #E3FEF7);
 }
 
 img {
@@ -32,10 +33,16 @@ header {
 
 .container-title {
 	padding: 30px;
-	background: linear-gradient(to right, #7469B6, #AD88C6, #E1AFD1, #FFE6E6);
+	background: #E3FEF7;
 	margin-bottom: 50px;
 	color: #222;
 	border-radius: 10px;
+  }
+
+  .container-preto {
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 40px;
   }
 
 main {
