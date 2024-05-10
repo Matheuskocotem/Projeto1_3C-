@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Página de Produto</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
+			<img src="img/logo (2).svg" alt="Logotipo">
+		</header>
+
+		<div class="container-title">Sapatos</div>
+
+		<main>
+			<div class="container-img">
+				<img
+					src="img/vans.png"
+					alt="imagem do produto"
+				/>
+			</div>
+			<div class="container-info-product">
+				<div class="container-price">
+					<span>R$ 95,00</span>
+					<i class="fa-solid fa-angle-right"></i>
+				</div>
+
+				<div class="container-details-product">
+					<div class="form-group">
+						<label for="cor">Cor</label>
+						<select name="cor" id="cor">
+							<option disabled selected value="">
+								Escolha uma opção
+							</option>
+							<option value="vermelho">Vermelho</option>
+							<option value="branco">Branco</option>
+							<option value="bege">Bege</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="tamanho">Tamanho</label>
+						<select name="tamanho" id="tamanho">
+							<option disabled selected value="">
+								Escolha uma opção
+							</option>
+							<option value="40">40</option>
+							<option value="42">42</option>
+							<option value="43">43</option>
+							<option value="44">44</option>
+						</select>
+					</div>
+					<button class="btn-clean">Limpar</button>
+				</div>
+
+				<div class="container-add-cart">
+					<div class="container-quantity">
+						<input
+							type="number"
+							placeholder="1"
+							value="1"
+							min="1"
+							class="input-quantity"
+						/>
+						<div class="btn-increment-decrement">
+							<i class="fa-solid fa-chevron-up" id="increment"></i>
+							<i class="fa-solid fa-chevron-down" id="decrement"></i>
+						</div>
+					</div>
+					<button class="btn-add-to-cart">
+						<i class="fa-solid fa-plus"></i>
+						Adicionar ao carrinho
+					</button>
+				</div>
+
+				<div class="container-description">
+					<div class="title-description">
+						<h4>Descrição</h4>
+						<i class="fa-solid fa-chevron-down"></i>
+					</div>
+					<div class="text-description">
+						<p>
+							Lorem ipsum dolor, sit amet consectetur adipisicing
+							elit. Laboriosam iure provident atque voluptatibus
+							reiciendis quae rerum, maxime placeat enim cupiditate
+							voluptatum, temporibus quis iusto. Enim eum qui delectus
+							deleniti similique? Lorem, ipsum dolor sit amet
+							consectetur adipisicing elit. Sint autem magni earum est
+							dolorem saepe perferendis repellat ipsam laudantium cum
+							assumenda quidem quam, vero similique? Iusto officiis
+							quod blanditiis iste?
+						</p>
+					</div>
+				</div>
+
+				<div class="container-additional-information">
+					<div class="title-additional-information">
+						<h4>Informação adicional</h4>
+						<i class="fa-solid fa-chevron-down"></i>
+					</div>
+					<div class="text-additional-information hidden">
+						<p>----------</p>
+					</div>
+				</div>
+
+				<div class="container-reviews">
+					<div class="title-reviews">
+						<h4>Avaliações</h4>
+						<i class="fa-solid fa-chevron-down"></i>
+					</div>
+					<div class="text-reviews hidden">
+						<p>----------</p>
+					</div>
+				</div>
+
+				<div class="container-social">
+					<span>Compartilhar</span>
+					<divclass="container-buttons-social">
+						<a href="#"><i class="fa-solid fa-envelope"></i></a>
+						<a href="#"><i class="fa-brands fa-facebook"></i></a>
+						<a href="#"><i class="fa-brands fa-twitter"></i></a>
+						<a href="#"><i class="fa-brands fa-instagram"></i></a>
+						<a href="#"><i class="fa-brands fa-pinterest"></i></a>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
