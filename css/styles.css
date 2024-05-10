@@ -9,7 +9,7 @@ body {
 	font-family: 'Ubuntu';
 	max-width: 1200px;
 	margin: 0 auto;
-	background: linear-gradient(to right, #003C43, #135D66, #77B0AA, #E3FEF7);
+	background-color: #fff ;
 }
 
 img {
@@ -33,7 +33,8 @@ header {
 
 .container-title {
 	padding: 30px;
-	background: #E3FEF7;
+	width: 513px;
+	background: #fff;
 	margin-bottom: 50px;
 	color: #222;
 	border-radius: 10px;
@@ -43,7 +44,9 @@ header {
 	background-color: #fff;
 	border-radius: 10px;
 	padding: 40px;
+	border: 2px solid #000;
   }
+
 
 main {
 	display: flex;
@@ -111,7 +114,7 @@ main {
 }
 
 .btn-clean:hover {
-	color: #1bbeb4;
+	color: red;
 }
 
 .container-add-cart {
@@ -161,11 +164,11 @@ main {
 }
 
 .fa-chevron-down:hover {
-	color: #1bbeb4;
+	color: red;
 }
 
 .fa-chevron-up:hover {
-	color: #1bbeb4;
+	color: red;
 }
 
 .btn-add-to-cart {
@@ -182,7 +185,7 @@ main {
 }
 
 .btn-add-to-cart:hover {
-	color: #1bbeb4;
+	color: red;
 }
 
 .hidden {
@@ -211,7 +214,7 @@ main {
 .title-additional-information h4,
 .title-reviews h4 {
 	font-weight: 300;
-	color: #666;
+	color: #000;
 	font-size: 14px;
 }
 
@@ -222,6 +225,7 @@ main {
 	color: #252525;
 	line-height: 22px;
 	margin-top: 25px;
+
 }
 
 .container-social {
@@ -303,6 +307,7 @@ main {
 .text-product p{
     color: #666;
     font-size: 13px;
+	
 }
 
 .text-product p:hover{
