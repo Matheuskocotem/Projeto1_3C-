@@ -20,10 +20,19 @@
 
 img {
     width: 100%;
+    border-radius: 12px;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.1); /* Aumenta em 10% quando o mouse está sobre a imagem */
+    transition: transform 0.3s ease; /* Adiciona uma transição suave para a animação */
 }
 
 body {
     color: var(--text-color);
+    padding-top: 80px;
 }
 
 .container {
@@ -91,3 +100,4 @@ img {
     width: 400px;
     height: 400px;
 }
+
