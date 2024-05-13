@@ -39,6 +39,13 @@ body {
     max-width: 1068px;
     margin: auto;
     width: 100%;
+    align-items: center;
+}
+
+.fale-conosco-btn {
+    margin-left: 793px;
+    cursor: pointer;
+    color: var(--text-color);
 }
 
 .section {
@@ -77,6 +84,7 @@ header {
 #cart-icon {
     font-size: 1.8em;
     cursor: pointer;
+    margin-top: -6px;
 }
 
 .shop {
